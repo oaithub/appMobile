@@ -1,0 +1,1041 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<base href="https://www.oa.edu.ua/" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="verify-v1" content="tQLx2VFP7RFNUgibgmtq7gPTribaqvoRJ/6jc4u4n4k=" />
+	<meta name="keywords" content="Острозька академія, університет, освіта, наука"/>
+	<meta name="description" content="Національний університет «Острозька академія» — наступник першого вищого навчального закладу східнослов’янських народів — Острозької слов’яно-греко-латинської академії. Сьогодні виш визнано одним із найпрестижніших вищих навчальних закладів України." />
+	<title>Національний університет &laquo;Острозька академія&raquo;</title>
+	<link rel="alternate" type="application/rss+xml" title="Національний університет &laquo;Острозька академія&raquo; | Новини RSS" href="ua/rss.xml">
+<div id="snowflakeContainer">
+    <p class="snowflake">*</p>
+</div>
+	
+	<link href="c/bootstrap.min.css" rel="stylesheet">
+	<link href="c/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="c/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="c/jquery.fancybox.min.css" rel="stylesheet">	
+	<link href="c/style.min.css" rel="stylesheet">		
+
+                            <link type="text/css" media="screen" rel="stylesheet" href="https://www.oa.edu.ua/assets/plugins/qm/css/colorbox.css" />
+                            
+                            <style type="text/css">
+                            .cboxIE #cboxTopLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=https://www.oa.edu.ua/assets/plugins/qm/css/images/internet_explorer/borderTopLeft.png, sizingMethod='scale');}
+                            .cboxIE #cboxTopCenter{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=https://www.oa.edu.ua/assets/plugins/qm/css/images/internet_explorer/borderTopCenter.png, sizingMethod='scale');}
+                            .cboxIE #cboxTopRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=https://www.oa.edu.ua/assets/plugins/qm/css/images/internet_explorer/borderTopRight.png, sizingMethod='scale');}
+                            .cboxIE #cboxBottomLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=https://www.oa.edu.ua/assets/plugins/qm/css/images/internet_explorer/borderBottomLeft.png, sizingMethod='scale');}
+                            .cboxIE #cboxBottomCenter{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=https://www.oa.edu.ua/assets/plugins/qm/css/images/internet_explorer/borderBottomCenter.png, sizingMethod='scale');}
+                            .cboxIE #cboxBottomRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=https://www.oa.edu.ua/assets/plugins/qm/css/images/internet_explorer/borderBottomRight.png, sizingMethod='scale');}
+                            .cboxIE #cboxMiddleLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=https://www.oa.edu.ua/assets/plugins/qm/css/images/internet_explorer/borderMiddleLeft.png, sizingMethod='scale');}
+                            .cboxIE #cboxMiddleRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=https://www.oa.edu.ua/assets/plugins/qm/css/images/internet_explorer/borderMiddleRight.png, sizingMethod='scale');}
+                            </style>
+                            
+                            <script type="text/javascript" src="https://www.oa.edu.ua/assets/plugins/qm/js/jquery.colorbox-min.js"></script>
+                            
+                        <script type="text/javascript">
+                        $(document).ready(function($)    
+                            {                      
+                        		$("a.colorbox").colorbox({width:"80%", height:"90%", iframe:true, overlayClose:false, opacity:0.5, transition:"fade", speed:150});
+                        	
+                            	// Bindings
+                            	$(document).bind("cbox_open", function(){
+                                    $("body").css({"overflow":"hidden"});
+                                    $("html").css({"overflow":"hidden"});
+                                    $("#qmEditor").css({"display":"none"});
+                                });
+				
+                                $(document).bind("cbox_cleanup", function(){ 
+                                    //window is closing and cannot be stopped so clear dirty settings for all fields and tinyMCE
+				    var foundit;
+				    
+                                    //loop through the iframes, checking their scr
+                                    iframearray = document.getElementsByTagName('iframe');
+				    
+                                    for(var i=0; i < iframearray.length; i++) {
+                                        //if the matching colorbox src, we have found the correct iframe
+                                        haystack=iframearray[i].src;
+                                        needle="https://www.oa.edu.ua/manager/index.php?a=27";
+                                        if(haystack.substr(0, needle.length) == needle){ 
+                                            foundit=iframearray[i]; //assign it to the foundit variable created earlier
+                                            break; //no need to keep looking
+                                        }
+                                    }
+                                    if (foundit) {
+                                        foundit.contentWindow.window.documentDirty=false; //clear document dirty for fields
+                                        //loop through tinyMCE editors and clear any dirty flags
+                                        if (typeof(foundit.contentWindow.window.tinyMCE)!=='undefined') {   
+                                            var i, t = foundit.contentWindow.window.tinyMCE.editors;for (i in t){    
+                                            if (t.hasOwnProperty(i)){    t[i].isNotDirty=true }}  
+                                        }
+                                    }
+                                });
+                                
+                            	$(document).bind("cbox_closed", function(){      
+                                    $("body").css({"overflow":"auto"});
+                                    $("html").css({"overflow":"auto"});
+                                    $("#qmEditor").css({"display":"block"});
+                                    // Remove manager lock by going to home page
+                                    $.ajax({ type: "GET", url: "https://www.oa.edu.ua/manager/index.php?a=2" });
+                                });                  
+                                                            						                            
+                                // Hide QM+ if cookie found
+                                if (getCookie("hideQM") == 1)
+                                {
+                                    $("#qmEditor").css({"display":"none"});
+                                    $("#qmEditorClosed").css({"display":"block"});    
+                                }
+                                
+                                // Hide QM+
+                                $(".qmClose").click(function () {
+                                    $("#qmEditor").hide("normal");
+                                    $("#qmEditorClosed").show("normal");
+                                    document.cookie = "hideQM=1; path=/;";
+                                });
+                                
+                                // Show QM+
+                                $("#qmEditorClosed").click(function () {
+                                    {
+                                        $("#qmEditorClosed").hide("normal");
+                                        $("#qmEditor").show("normal");
+                                        document.cookie = "hideQM=0; path=/;";
+                                    }
+                                });
+    
+                            });
+                            
+                            function getCookie(cookieName)
+                            {
+                                var results = document.cookie.match ( "(^|;) ?" + cookieName + "=([^;]*)(;|$)" );
+        
+                                if (results) return (unescape(results[2]));
+                                else return null;
+                            }
+    
+                        </script>
+                        
+                        <script>
+                        // Assure keeping session and related locks alive
+                        $(document).ready(function($) {
+                            function updateMODXsession() {
+                              $.ajax({ url: 'https://www.oa.edu.ua/manager/index.php', method:'post', data:{'updateMsgCount':true},
+                                success: function(data) {},
+                                complete: function() {
+                                  setTimeout(updateMODXsession, 60000);
+                                }
+                              });
+                            }
+                            setTimeout(updateMODXsession, 60000);
+                        });
+                        </script>
+                        
+                        <link rel="stylesheet" type="text/css" href="https://www.oa.edu.ua/assets/plugins/qm/css/style.css" />
+                        <!--[if IE]><link rel="stylesheet" type="text/css" href="https://www.oa.edu.ua/assets/plugins/qm/css/ie.css" /><![endif]-->
+                        
+                        <link rel="stylesheet" type="text/css" href="https://www.oa.edu.ua/manager/media/style/common/font-awesome/css/font-awesome.min.css" />
+                            
+                            <link rel="stylesheet" type="text/css" href="https://www.oa.edu.ua/assets/plugins/qm/css/navButtons.css" />
+                            
+                            <style type="text/css">
+                            #qmEditor, #qmEditorClosed { left:0; top: -30px; width: 100%;}
+                            #qmEditor:hover, #qmEditorClosed:hover {top: 0px;}
+                            .butticon {display:none}
+                            @media only screen and (max-width: 728px) {
+                            .butttext {display:none}
+                            #qmUser {display:none}
+                            }
+                            @media only screen 
+                            and (min-device-width: 768px) 
+                            and (max-device-width: 1024px) 
+                            and (orientation: portrait) 
+                            and (-webkit-min-device-pixel-ratio: 1) {
+                            .butttext {display:none}
+                            .butticon {display:inline!important}
+                            }
+                            </style>
+                            </head>
+ <body id="Home">
+                        <div id="qmEditorClosed"></div>
+                        
+    					<div id="qmEditor">
+    					
+                        <ul>
+                        <li id="qmUser">
+                        <span class="qmUser"> <span class="butttext">nataliia_mosiichuk</span> <i class="fa fa-2x fa-fw fa-user-circle usericon"></i></span>
+                        </li>
+                        
+                        <li><a id="qmLogoClose" class="qmClose" href="#" onclick="javascript: return false;"></a></li>
+                        <li class="qmId"><span class="textid">ID: </span>1</li>
+                            <li class="qmManager">
+                            <a class="qmButton qmManager" title="Менеджер" href="https://www.oa.edu.ua/manager/" ><i class="fa fa-2x fa-fw fa-home butticon"></i><span class="butttext">Менеджер</span></a>
+                            </li>
+                            
+                        <li class="qmEdit">
+                        <a title="Редактировать" class="qmButton qmEdit colorbox primary" href="https://www.oa.edu.ua/manager/index.php?a=27&amp;id=1&amp;quickmanager=1"><i class="fa fa-2x fa-fw fa-pencil-square-o butticon"></i><span class="butttext">Редактировать</span></a>
+                        </li>
+                        
+                            <li class="qmAdd">
+                            <a class="qmButton qmAdd colorbox" href="https://www.oa.edu.ua/manager/index.php?a=4&amp;pid=1&amp;quickmanager=1"><i class="fa fa-2x fa-fw fa-file butticon"></i><span class="butttext">Дочерний ресурс</span></a>
+                            </li>
+                            
+                        <li class="qmLogout">
+                        <a id="qmLogout" class="qmButton qmLogout" title="Выйти" href="https://www.oa.edu.ua/manager/index.php?a=8&amp;quickmanager=logout&amp;logoutid=1" ><i class="fa fa-2x fa-fw fa-sign-out butticon"></i><span class="butttext">Выйти</span></a>
+                        </li>
+                        
+                        </ul>
+    					</div>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+			<div class="headline hidden-xs"></div>
+			<div class="row nav-row">
+			  <div class="col-sm-4 col-md-4 col-lg-4">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				  <span class="sr-only">Навігація</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				 <div class="navbar-brand">
+					<a href="/">
+					<img src="im/logo.png" class="logo" alt="ОА">
+					<img src="im/logo_s.png" class="logo_s" alt="ОА">
+					<div>
+					<p class="hidden-xs">Національний університет</p>
+					<p>ОСТРОЗЬКА АКАДЕМІЯ</p>
+					</div>
+					</a>
+					<div style="clear:both;"></div>
+
+				</div>
+			  </div>
+			  </div>
+			  <div class="col-sm-7 col-md-7 col-lg-7">
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<form id="sitesearch" class="visible-xs" action="/ua/search" role="search">	
+				<input name="gs" id="searchtext" class="placeholder animate-in" placeholder="Пошук…" type="text">
+				<button class="svg" type="submit"><i class="glyphicon glyphicon-search"></i></button></form>
+				<div class="row mainnav clearfix">
+					<div class="col-xs-12">
+					<a id="mainnav"></a>
+					<nav role="navigation"><ul class="nav nav-justified"><li id="univercity" ><a href="/ua/info/">Університет</a></li>
+<li id="departments" ><a href="/ua/departments/">Факультети</a></li>
+<li id="enter" ><a href="/ua/abiturijentovi/">Вступ</a></li>
+<li id="science" ><a href="/ua/science/">Наука</a></li>
+<li id="resources" ><a href="/ua/resources/">Ресурси</a></li>
+<li id="student"  class="last"><a href="/ua/studentbody/">Корисне</a></li>
+</ul></nav>
+					</div>
+				</div>
+				
+				<div class="row topnav visible-xs clearfix">
+					<div class="col-xs-12">
+						<a id="rolesnav"></a>
+						<nav role="navigation">
+	<ul class="nav nav-justified">
+		<li><a href="/ua/search">Мапа сайту</a></li>
+		<li><a href="/ua/info/news">Новини</a></li>
+		<li><a href="http://events.oa.edu.ua">Події</a></li>
+		<li><a href="/ua/contacts/">Контакти</a></li>
+		<li><a href="http://help.oa.edu.ua/">Допомога</a></li>
+		<li><a href="/en/">English</a></li>
+	</ul>
+</nav>
+					</div>
+
+				</div>				
+				
+				
+				
+			  </div><!-- /.navbar-collapse -->
+			  </div>
+			  <div class="col-sm-1 col-md-1 col-lg-1 navicons hidden-xs">
+						<div id="sb-search" class="sb-search">
+							<form action="/ua/search">
+								<input class="sb-search-input" placeholder="Пошук…" type="search" name="gs" id="search">
+								<input class="sb-search-submit" type="submit" value="">
+								<span class="sb-icon-search glyphicon glyphicon-search"></span>
+							</form>
+						</div>		  
+						<div class="m-line"></div>
+				  <a href="/en/"><img src="im/lang.jpg" alt="EN"></a>
+			  </div>
+			  </div>
+		  </div><!-- /.container -->
+		</nav>
+		<div class="row drawer hidden-phone" id="m_univercity">
+			<div class="container">
+				<div class="col-sm-2">
+					<ul>			
+						<li><a href="/ua/info/history">Історія та сучасність університету</a></li>
+						<li><a href="http://museum.oa.edu.ua">Музей Острозької академії</a></li>
+						<li><a href="/ua/contacts/cont_heads">Адміністрація</a></li>
+						<li><a href="/ua/info/upravlinya_zvo/vchena_rada">Вчена рада</a></li>
+					</ul>
+				</div>
+
+				<div class="col-sm-2">
+					<ul>
+						<li><a href="/ua/info/news">Новини та події</a></li>						
+						<li><a href="/ua/info/upravlinya_zvo/rectorsoffice">Ректорат</a></li>
+						<li><a href="/ua/info/ects/">Інформаційний пакет ЄКТС</a></li>
+						<li><a href="/ua/info/access">Публічна інформація</a></li>
+						<li><a href="/ua/contacts/cont_all">Контакти</a></li>						
+					</ul>
+				</div>				
+
+				<p class="col-sm-4 hidden-phone">Національний університет «Острозька академія» — наступник першого вищого навчального закладу східнослов’янських народів — Острозької слов’яно-греко-латинської академії. Сьогодні виш визнано одним із найпрестижніших вищих навчальних закладів України.</p>
+				<div class="col-sm-4"><img src="/im/nav_about.jpg" alt="Університет" class="img-responsive" width="370" height="180"></div>
+
+
+			</div>
+		</div>
+		<div class="row drawer hidden-phone" id="m_enter">
+			<div class="container">
+				<div class="col-sm-4"><img src="/im/nav_admissions.jpg" alt="Вступ" class="img-responsive" width="370" height="180"></div>
+				<div class="col-sm-2">
+					<ul>
+						<li><a href="/ua/abiturijentovi/receiving_commission/">Приймальна комісія</a></li>
+						<li><a href="ua/abiturijentovi/bachelor/">Бакалавр</a></li>
+						<li><a href="ua/abiturijentovi/master/">Магістр</a></li>							
+						<!--li><a href="/ua/abiturijentovi/dovuzivzi">Довузівська підготовка</a></li-->
+						<li><a href="//idzdn.oa.edu.ua/">Заочна (дистанційна) форма навчання</a></li>						
+
+					</ul>
+				</div>
+
+				<div class="col-sm-2">				
+					<ul>
+						<li><a href="http://vstup.oa.edu.ua">Вступникові 2020</a></li>
+						<!--<li><a href="ua/abiturijentovi/gurtozhutku/ymovu_gyrtozhitok">Умови поселення до гуртожитку</a></li>-->	
+						<li><a href="http://vstup.oa.edu.ua/%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80/">Календар вступника</a></li>						
+						<li><a href="ua/abiturijentovi/enter-2020">Правила прийому 2020</a></li>
+						<li><a href="ua/abiturijentovi/osobluvosty_pruyomy_inozemtsiv">Особливості прийому іноземців</a></li>					
+						<li style="display:none;"><a href="ua/abiturijentovi/bachelor/programy_vstup">Програми фахових вступних випробувань</a></li>					
+						<li style="display:none;"><a href="ua/abiturijentovi/bachelor/vartist_navchannia">Вартість навчання</a></li>
+						<li style="display:none;"><a href="ua/abiturijentovi/bachelor/derzh_zamovlennia2016">Обсяги державного замовлення</a></li>
+					
+					</ul>
+				</div>				
+
+				<p class="col-sm-4 hidden-phone">Усю корисну інформацію про вступ до Національного університету «Острозька академія» абітурієнти можуть знайти у цьому розділі.</p>
+			</div>
+		</div>
+		
+		<div class="row drawer hidden-phone" id="m_science">
+			<div class="container">
+				<div class="col-sm-2">
+					<ul>
+						<!--li><a href="#">Вчена рада</a></li-->
+					 	<!--<li><a href="/ua/science/labs">Наукові центри та лабораторії</a></li> -->												<li><a href="/ua/science/stud-olimp">Всеукраїнські студентські олімпіади</a></li>
+						<li><a href="/ua/science/vcheni_rady">Спеціалізовані вчені ради</a></li>
+						<li><a href="/ua/science/aspirantura/">Аспірантура та докторантура</a></li>
+
+					</ul>
+				</div>
+
+				<div class="col-sm-2">
+					<ul>
+						<!--li><a href="http://confem.oa.edu.ua/">Конференції та семінари</a></li-->
+						<li><a href="/ua/science/sjournal/">Наукові збірники</a></li>						
+						<li><a href="//naub.oa.edu.ua/">Науковий блог</a></li>
+						<li><a href="ua/science/dosiagnennia/">Наукові досягнення</a></li>
+						<li><a href="//lib.oa.edu.ua/funds/science-oa">Наукові праці викладачів</a></li>	
+					</ul>
+				</div>				
+
+				<p class="col-sm-4 hidden-phone">Національний університет «Острозька академія» має статус самоврядного (автономного) дослідницького національного вищого навчального закладу. В університеті функціонують наукові центри, лабораторії, спеціалізовані вчені ради із захисту кандидатських дисертацій.</p>
+
+				<div class="col-sm-4"><img src="/im/nav_science.jpg" alt="Наука" class="img-responsive"></div>
+			</div>
+		</div>
+		
+		<div class="row drawer hidden-phone" id="m_resources">
+			<div class="container">
+				<div class="col-sm-4"><img src="/im/nav_resources.jpg" alt="Ресурси" class="img-responsive"></div>
+				<div class="col-sm-2">
+					<ul>
+						<li><a href="//lib.oa.edu.ua">Наукова бібліотека</a></li>
+						<li><a href="/ua/resources/rescenter/">Ресурсні центри</a></li>
+						<li><a href="/ua/resources/vdzg">Інформаційно-рекламний відділ</a></li>
+						<li><a href="/ua/studentbody/stud_organizations/organizations_kmc/">Культурно-мистецький центр</a></li>						
+						<!--li><a href="#">Відділ кадрів</a></li-->						
+					</ul>
+				</div>
+
+				<div class="col-sm-2">				
+					<ul>
+						<!--li><a href="#">Студентський відділ кадрів</a></li-->
+						<li><a href="/ua/resources/job/">Відділ кадрів</a></li>
+						<li><a href="/ua/foreign/">Відділ міжнародних зв'язків</a></li>
+						<li><a href="ua/resources/moodle">Навчальна система Moodle</a></li>
+						<li><a href="/ua/resources/fizkultura">Фізичне виховання та спорт</a></li>					
+					</ul>
+				</div>				
+
+				<p class="col-sm-4 hidden-phone">Серед ресурсів, що надаються студентам, викладачам, працівникам та гостям університету наукова бібліотека, відділ кадрів, інформаційно-рекламний відділ, відділ міжнародних зв’язків, Центр вивчення спадщини Острозької академії,  ресурсні центри, методичні кабінети. </p>
+			</div>
+		</div>
+		
+		<div class="row drawer hidden-phone" id="m_departments"><div class="container">
+
+			<div class="col-sm-2">
+				<ul>
+					<li><a href="/ua/departments/politics/">Політико-інформаційного менеджменту</a></li>
+					<li><a href="/ua/departments/filologist/">Романо-германських мов</a></li>
+					<li><a href="/ua/departments/humanities/">Гуманітарний</a></li>
+					<li><a href="/ua/departments/economics/">Економічний</a></li>					
+				</ul>
+			</div>
+			<div class="col-sm-2">			
+				<ul>
+					<li><a href="/ua/departments/mizhn/">Міжнародних відносин</a></li>		
+					<li><a href="/ua/departments/law/">Навчально-науковий інститут права ім. І. Малиновського</a></li>
+					<li><a href="/ua/departments/idzdn/">Навчально-науковий центр заочно-дистанційного навчання</a></li>					
+				</ul>
+			</div>
+			<p class="col-sm-4 hidden-phone">В Національному університеті «Острозька академія» діє п'ять факультетів та Інститут права ім. І. Малиновського, студенти яких навчаються на 18 престижних спеціальностях.</p>				
+			<div class="col-sm-4"><img src="/im/nav_departments.jpg" alt="Факультети" class="img-responsive"></div>
+		</div></div>
+		
+		<div class="row drawer hidden-phone" id="m_student">
+			<div class="container">
+				<div class="col-sm-4"><img src="/im/nav_student.jpg" alt="Корисне" class="img-responsive"></div>	
+				<p class="col-sm-4 hidden-phone">При Острозькій академії створена велика кількість студентських організацій, а також проектів, у яких студенти беруть активну участь, мають змогу проявити свій творчий потенціал та реалізувати себе.</p>			
+				<div class="col-sm-2">
+					<ul>
+						<!--<li><a href="/ua/studentbody/stud_projects/projects_oa">Газета «Острозька Академія»</a></li>-->
+                        <li><a href="/ua/etc/web">Веб-сайти Острозької академії</a></li>							
+						<!--<li><a href="/ua/studentbody/stud_projects/projects_radio">Студентське радіо</a></li>-->						
+						<li><a href="/ua/studentbody/web_partners">Партнери</a></li>
+						<li><a href="/ua/studentbody/stud_organizations/">Студентські організації</a></li>
+						<li><a href="/ua/studentbody/anti-koruptsiya-nauoa"> Антикорупційна діяльність</a></li>
+						
+
+					</ul>
+				</div>
+
+				<div class="col-sm-2">				
+					<ul>
+						<!--li><a href="#">Аудиторний фонд</a></li-->						
+						<li><a href="/ua/studentbody/wifi">Карта покриття Wi-Fi</a></li>					
+						<!--li><a href="#">Студентське містечко</a></li-->
+						<li><a href="http://handbook.oa.edu.ua/">Довідник спудея</a></li>
+						<li><a href="/ua/search">Пошук та мапа сайту</a></li>	
+						<li><a href="http://help.oa.edu.ua/">Допомога</a></li>
+						<li><a href="/ua/studentbody/panorama">Панорамний тур</a></li>	
+					</ul>
+				</div>
+			</div>		
+		</div>
+		
+	</header>
+	<div class="slider">
+			<div id="shadow-top" class="hidden-xs"></div>
+			<div id="owl-demo" class="owl-carousel owl-theme">	
+				<div class="item">
+					<img class="lazyOwl" src="im/newc.jpg" alt="Острозька академія">
+					<a href="ua/info/news/2019/28-11-01" class="block left" target="_blank">
+						<div class="yellow">						
+						<h3>Новий навчальний корпус урочисто відкрито!</h3>
+						<p class="hidden-phone">Фінальним акордом до відзначення 25-річчя відродження Острозької академії стало урочисте відкриття нового корпусу університету</p>
+						</div>	
+					</a>	
+				</div>
+					
+				<!--div class="item">
+					<img class="lazyOwl" src="im/newc.jpg" alt="Острозька академія">
+					<a href="ua/top/new" class="block left" target="_blank">
+						<div class="yellow">						
+						<h3>В Острозькій академії відкриють новий навчальний корпус</h3>
+						<p class="hidden-phone">До 25-річчя відродження Острозької академії 28 листопада відбудеться урочисте відкриття нового корпусу університету</p>
+						</div>	
+					</a>	
+				</div-->
+				<!--<div class="item">
+					<img class="lazyOwl" src="im/dvd.jpg" alt="Острозька академія">
+					<a href="https://forms.gle/nShz5WCZn6ohDuw39" class="block right" target="_blank">
+						<div class="orange">						
+						<h3>24 жовтня</h3>
+						<p class="hidden-phone"> стань учасником Дня відкритих дверей в Національному університеті "Острозька академія"</p>
+						</div>	
+					</a>	
+				</div> 
+				<div class="item">
+					<img class="lazyOwl" src="im/zno.jpg" alt="Острозька академія">
+					<a href="https://forms.gle/TnPBy4BBaYwpUBXf6" class="block right" target="_blank">
+						<div class="yellow">						
+						<h3>Курси підготовки до ЗНО</h3>
+						<p class="hidden-phone">Набір на підготовчі курси для вступу до закладів вищої освіти (дистаційна та очна форми навчання) для учнів 9 -11 класів</p>
+						</div>	
+					</a>	
+				</div>-->
+				<div class="item">
+					<img class="lazyOwl" src="im/440.jpg" alt="Острозька академія">
+					<a href="ua/info/news/2019/18-04-01" class="block left" target="_blank">
+						<div class="blue">						
+						<h3>Острозька академія - на другому місці</h3>
+						<p class="hidden-phone">за рівнем викладання в міжнародному рейтингу World University Rankings</p>
+						</div>	
+					</a>	
+				</div>
+				<div class="item">
+					<img class="lazyOwl" src="im/zno.jpg" alt="Острозька академія">
+					<a href="ua/info/news/2019/12-12-19" class="block right" target="_blank">
+						<div class="orange">						
+						<h3>Майстер-класи від викладачів та студентів Національного університету «Острозька академія» у Вашому закладі освіти</h3>
+						<p class="hidden-phone"> </p>
+						</div>	
+					</a>	
+				</div>
+				
+				<!--div class="item">
+					<img class="lazyOwl" src="im/6n.jpg" alt="Острозька академія">
+					<a href="ua/info/access/vakantni_posadu/vybory_rectora" class="block right" target="_blank">
+						<div class="green">						
+						<h3>Вибори ректора</h3>
+						<p class="hidden-phone">Національного університету "Острозька академія"</p>
+						</div>	
+					</a>	
+				</div--><!-- item -->
+				
+				<div class="item">
+					<img class="lazyOwl" src="im/10_rait.jpg" alt="Острозька академія">
+					<a href="https://www.oa.edu.ua/ua/info/news/2018/19-12-01" class="block right" >
+						<div class="green">						
+						<h3>Острозька академія — у п'ятірці серед університетів України </h3>
+						<p class="hidden-phone">міжнародного рейтингу RUR</p>
+						</div>	
+					</a>	
+				</div><!-- item -->
+				
+				<!--div class="item">
+					<img class="lazyOwl" src="im/11n.jpg" alt="Острозька академія">
+					<a href="ua/info/news/2018/12-06-01" class="block right" target="_blank">
+						<div class="orange">						
+						<h3>Острозька академія — у десятці серед університетів України </h3>
+						<p class="hidden-phone">міжнародного рейтингу U-Multirank</p>
+						</div>	
+					</a>	
+				</div--><!-- item -->
+				
+				
+				<!--div class="item">
+					<img class="lazyOwl" src="im/record1_b.jpg" alt="Острозька академія">
+					<a href="ua/info/news/2018/07-06-05" class="block left" target="_blank">
+						<div class="yellow">						
+						<h3>Всеукраїнський марафон безперервного читання поезії</h3>
+						<p class="hidden-phone">В Острозькій академії стартував Всеукраїнський марафон безперервного читання поезії</p>
+						</div>	
+					</a>	
+				</div--><!-- item -->
+				
+				<div class="item">
+					<img class="lazyOwl" src="im/9n.jpg" alt="Острозька академія">
+					<a href="https://www.oa.edu.ua/ua/info/news/2018/16-02-01" class="block left" target="_blank">
+						<div class="blue">						
+						<h3>Академічна доброчесність</h3>
+						<p class="hidden-phone">У Національному університеті «Острозька академія» відбулася Міжнародна науково-практична конференція</p>
+						</div>	
+					</a>	
+				</div><!-- item -->
+						
+				<div class="item">			
+					<img src="im/alt_title.jpg" class="lazyOwl" data-src="im/alt_title.jpg" alt="Острозька академія посіла десяту сходинку серед українських вишів">
+					<a href="ua/top/rating" class="block right">	
+						<div class="yellow">
+						<h3>«Острозька академія» посіла десяту сходинку</h3>
+						<p class="hidden-phone">серед українських вишів у рейтингу оцінювання університетів QS-2018</p>			
+						</div>
+					</a>					
+				</div><!-- item -->	
+				
+				
+				<!--div class="item">
+					<img class="lazyOwl" data-src="im/7n.jpg" alt="Бажаєш бути успішним – вступай до Острозької академії!">
+					<a href="/ua/abiturijentovi/info_vstupnyki/info-vstupnyki" class="block right">
+						<div class="green">						
+						<h3>Бажаєш бути успішним – вступай до Острозької академії!</h3>
+						</div>	
+					</a>	
+				</div--><!-- item -->
+				
+				<!--div class="item">
+					<img class="" src="im/new_faculty.jpg" alt="Нова спеціальність «Громадське здоров'я»">
+					<a href="ua/info/news/2017/20-05-01" class="block right">
+						<div class="blue">						
+						<h3>«Громадське здоров'я»</h3>
+							<p class="hidden-phone">В Острозькій академії відкрито
+						нову спеціальність</p>
+						</div>	
+					</a>	
+				</div--><!-- item -->
+				<!--div class="item">
+					<img class="" src="im/10n.jpg" alt="Обери Острозьку академію Інформація про напрями та спеціальності">
+					<a href="ua/abiturijentovi/choose" class="block left">
+						<div class="orange">						
+						<h3>Обери Острозьку академію</h3>
+						<p class="hidden-phone">Інформація про напрями та спеціальності</p>
+						</div>	
+					</a>	
+				</div--><!-- item -->
+				
+				<div class="item">			
+					<img class="lazyOwl" src="im/3n.jpg" data-src="im/3n.jpg" alt="Сертифікатні програми">
+					<a href="/ua/top/sertificate" class="block right">
+						<div class="green">
+						<h3>Сертифікатні програми:</h3>
+						<p class="hidden-phone">додаткові можливості для студентів</p>	
+						</div>	
+					</a>					
+				</div><!-- item -->
+				<div class="item">
+					<img class="lazyOwl" src="im/11n.jpg" data-src="im/11n.jpg" alt="Панорамний тур">
+					<a href="/ua/studentbody/panorama" class="block right">
+						<div class="yellow">						
+						<h3>Панорамний тур</h3>
+						<p class="hidden-phone">Острозької академії</p>
+						</div>	
+					</a>	
+				</div><!--item -->			
+				
+			</div>
+			<a class="owl-prev glyphicon glyphicon-chevron-left hidden-phone"></a>
+			<a class="owl-next glyphicon glyphicon-chevron-right hidden-phone"></a>			
+	</div><!-- /.Slider-->
+
+	<div class="news-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 news">
+					<div class="row">
+						<div class="col-xs-6 col-sm-3 item">
+	<div class="m2"><h2>Новини</h2></div>						
+	<a href="/ua/info/news/2020/04-02-01"><img class="img-responsive" src="assets/images/n/2020/small/restart_plus_s.jpg" alt="«Перезавантаження плюс» викладачів Острозької академії">«Перезавантаження плюс» викладачів Острозької академії</a>
+</div><div class="col-xs-6 col-sm-3 item">
+	<div class="m2"></div>						
+	<a href="/ua/info/news/2020/31-01-01"><img class="img-responsive" src="assets/images/n/2020/small/no_discrimination_s.jpg" alt="В Острозькій академії обговорювали антидискримінаційні практики в освіті">В Острозькій академії обговорювали антидискримінаційні практики в освіті</a>
+</div>
+						<div class="clearfix visible-xs"></div>
+						<div class="col-xs-6 col-sm-3 item">
+							<div class="m2 hidden-xs"></div>							
+							<div class="latest-news">
+								<p class="latest"><b>Більше новин</b></p>
+								<div id="latest-news-carusel">
+						            <div class="item"><a href="/ua/info/news/2020/28-01-01">До уваги здобувачів вищої освіти!</a></div><div class="item"><a href="/ua/info/news/2020/22-01-02">Острозьку академію відвідав Сергій Бабак</a></div><div class="item"><a href="/ua/info/news/2020/22-01-01">Петро Кралюк про День Соборності України</a></div><div class="item"><a href="/ua/info/news/2020/17-01-02">В Острозькій академії  учнівська молодь обговорила військові питання</a></div><div class="item"><a href="/ua/info/news/2020/17-01-01">Острозька академія — єдиний український виш, який двічі потрапив у Книгу рекордів Гіннеса</a></div>
+								</div>
+							</div>
+							<div class="more">						
+								<p><a href="/ua/info/news/all_news">Більше новин</a></p>
+								<p><a href="/ua/info/news/archive">Архів новин</a></p>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-3 item events">
+							<div class="m2"><h2>Події</h2></div>							
+													
+							<div id="events-carusel">
+								
+
+<div class="item">
+<div class="col-xs-12 col-md-4 date">
+<div class="col-md-12">9  Грудень, 2019</div>
+<div class="col-md-12">16 Лютого</div>
+</div>
+<div class="col-xs-12 col-md-8 info"><p class="events-name"><a href="https://events.oa.edu.ua/event/vseukrainskyj-konkurs-filosofskykh-proiektiv-na-temu-sens-liudskoho-zhyttia-praktyka-samousvidomlennia/" target="_blank">Всеукраїнський конкурс філософських проєктів на тему:  «СЕНС ЛЮДСЬКОГО ЖИТТЯ: ПРАКТИКА САМОУСВІДОМЛЕННЯ»</a></p></div>
+</div><div class="item">
+<div class="col-xs-12 col-md-4 date"><div class="col-md-12">20 Лютого</div></div>
+<div class="col-xs-12 col-md-8 info"><p class="events-name"><a href="https://events.oa.edu.ua/event/vseukrainska-naukovo-praktychna-konferentsiia-molodykh-naukovtsiv-linhvosotsiokulturni-aspekty-komunikatsii-2/" target="_blank">Всеукраїнська науково-практична конференція молодих науковців: «Лінгвосоціокультурні аспекти комунікації»</a></p></div>
+</div><div class="item">
+<div class="col-xs-12 col-md-4 date"><div class="col-md-12">21 Лютого</div></div>
+<div class="col-xs-12 col-md-8 info"><p class="events-name"><a href="https://events.oa.edu.ua/event/mizhnarodna-naukovo-praktychna-konferentsiia-prykladni-linhvistychni-doslidzhennia-v-umovakh-mizhkulturnoi-komunikatsii/" target="_blank">Міжнародна науково-практична  конференція „Прикладні лінгвістичні дослідження в умовах міжкультурної комунікації”</a></p></div>
+</div><div class="item">
+<div class="col-xs-12 col-md-4 date"><div class="col-md-12">1 Березня</div></div>
+<div class="col-xs-12 col-md-8 info"><p class="events-name"><a href="https://events.oa.edu.ua/event/vseukrainskyj-festyval-konkurs-uchytel-roku-predmetiv-dukhovno-moralnoho-spriamuvannia/" target="_blank">Всеукраїнський фестиваль-конкурс «Учитель року предметів духовно-морального спрямування»</a></p></div>
+</div><div class="item">
+<div class="col-xs-12 col-md-4 date"><div class="col-md-12">31 Березня</div></div>
+<div class="col-xs-12 col-md-8 info"><p class="events-name"><a href="https://events.oa.edu.ua/event/vseukrainskyj-konkurs-ese-anhlijskoiu-movoiu-na-temu-how-will-the-national-university-of-ostroh-academy-help-you-achieve-your-professional-and-personal-goals/" target="_blank">Всеукраїнський конкурс есе англійською мовою на тему «How Will the National University of Ostroh Academy Help You Achieve Your Professional and  Personal Goals?»</a></p></div>
+</div><div class="item">
+<div class="col-xs-12 col-md-4 date"><div class="col-md-12">1 Квітня</div></div>
+<div class="col-xs-12 col-md-8 info"><p class="events-name"><a href="https://events.oa.edu.ua/event/xiii-vseukrainska-olimpiada-iuni-znavtsi-biblii-2020/" target="_blank">XIІІ Всеукраїнська олімпіада «Юні знавці Біблії – 2020»</a></p></div>
+</div><div class="item">
+<div class="col-xs-12 col-md-4 date">
+<div class="col-md-12">13 Травня</div>
+<div class="col-md-12">20 Травня</div>
+</div>
+<div class="col-xs-12 col-md-8 info"><p class="events-name"><a href="https://events.oa.edu.ua/event/zaochna-mizhnarodna-naukovo-praktychna-konferentsiia-suchasni-doslidzhennia-kohnityvnoi-psykholohii-icracp-2020/" target="_blank">Заочна міжнародна науково-практична конференція «СУЧАСНІ  ДОСЛІДЖЕННЯ  КОГНІТИВНОЇ ПСИХОЛОГІЇ» (ICRACP – 2020)</a></p></div>
+</div><div class="item">
+<div class="col-xs-12 col-md-4 date">
+<div class="col-md-12">21 Травня</div>
+<div class="col-md-12">22 Травня</div>
+</div>
+<div class="col-xs-12 col-md-8 info"><p class="events-name"><a href="https://events.oa.edu.ua/event/viii-mizhnarodna-naukova-konferentsiia-ukrainska-diaspora-problemy-doslidzhennia/" target="_blank">VIII Міжнародна наукова конференція “Українська діаспора: проблеми дослідження”</a></p></div>
+</div>
+
+
+								
+								
+							</div>
+							<div class="more">
+									<p><a href="//events.oa.edu.ua">Більше подій</a></p>
+									<p><a href="//events.oa.edu.ua/all/">Архів подій</a></p>
+
+							</div>					
+						</div>					
+					
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-push-9 col-md-3">
+					<div class="bs-example">
+						<div class="panel-group" id="accordion">
+						
+						  <div class="panel panel-default">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+								<div class="panel-heading">
+								  <h4 class="panel-title">
+									Абітурієнт
+								  </h4>
+								  <span class="glyphicon glyphicon-chevron-down"></span>	
+								</div>
+							</a>
+							<div id="collapseOne" class="panel-collapse collapse in">
+							  <div class="panel-body">
+								<ul>
+									<li><a href="http://vstup.oa.edu.ua">Інформація абітурієнту</a></li>
+									<li><a href="/ua/abiturijentovi/receiving_commission">Приймальна комісія</a></li>
+									<!--li><a href="/ua/abiturijentovi/dovuzivzi">Довузівська підготовка </a></li-->
+									<li><a href="//idzdn.oa.edu.ua/">Заочне відділення</a></li>
+									<li><a href="ua/abiturijentovi/enter-2020">Правила прийому</a></li>
+									<li><a href="ua/studentbody/panorama">Панорамний тур</a></li>
+									<li><a href="ua/abiturijentovi/bachelor/specialities">Обрати напрям/спеціальність</a></li>
+									<li><a href="/ua/info/ects/">Інформаційний пакет ЄКТС</a></li>					
+																	
+								</ul>
+							  </div>
+							</div>
+						  </div>
+						  
+						  <div class="panel panel-default">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+								<div class="panel-heading">
+								  <h4 class="panel-title">
+									Студент
+								  </h4>
+								  <span class="glyphicon glyphicon-chevron-down"></span>								  
+								</div>
+							</a>
+							<div id="collapseTwo" class="panel-collapse collapse">
+							  <div class="panel-body">
+								<ul>
+									<li><a href="http://handbook.oa.edu.ua/">Довідник спудея</a></li>
+									<li><a href="/ua/etc/scholarship-support">Стипендійне забезпечення</a></li>
+									<li><a href="http://litpro.oa.edu.ua/">Рекомендована література</a></li>
+									<li><a href="/ua/top/sertificate">Сертифікатні програми</a></li>
+									<!--<li><a href="/ua/studentbody/stud_projects/">Студентські проекти</a></li>-->
+									<li><a href="/ua/studentbody/stud_organizations/">Студентські організації</a></li>
+									<!--li><a href="#">Студентське містечко</a></li-->
+									<!--<li><a href="/ua/etc/konkursy">Конкурси та стипендії</a></li> -->
+									<li><a href="http://rozklad.oa.edu.ua/">Розклад занять</a></li>
+									<li><a href="/ua/etc/web">Веб-сайти Острозької академії</a></li>
+									<li><a href="//play.google.com/store/apps/details?id=ua.edu.oa.app">Додаток на Android</a></li>
+									<li><a href="/ua/studentbody/wifi">Карта поткриття Wi-Fi</a></li>
+									
+								</ul>
+							  </div>
+							</div>
+						  </div>
+						  
+						  <div class="panel panel-default">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+								<div class="panel-heading">
+								  <h4 class="panel-title">
+									Викладач
+								  </h4>
+								  <span class="glyphicon glyphicon-chevron-down"></span>								  
+								</div>
+							</a>
+							<div id="collapseThree" class="panel-collapse collapse">
+							  <div class="panel-body">
+								<ul>
+                                    <li><a href="http://rating.oa.edu.ua">Рейтинг</a></li>
+									<li><a href="http://rozklad.oa.edu.ua/">Розклад занять</a></li>
+									<!--li><a href="http://confem.oa.edu.ua/">Конференції та семінари</a></li-->
+									<!--li><a href="/ua/etc/konkursy">Конкурси та гранти</a></li-->
+									<li><a href="/ua/etc/web">Веб-сайти Острозької академії</a></li>
+									<li><a href="http://help.oa.edu.ua/">Допомога</a></li>											
+								</ul>
+							  </div>
+							</div>
+						  </div>
+						  
+						  <div class="panel panel-default">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="collapsed">
+								<div class="panel-heading">
+								  <h4 class="panel-title">
+									Випускник
+								  </h4>
+								  <span class="glyphicon glyphicon-chevron-down"></span>								  
+								</div>
+							</a>
+							<div id="collapseFour" class="panel-collapse collapse">
+							  <div class="panel-body">
+								<ul>
+                                    <!--li><a href="#">Дні відкритих дверей</a></li-->
+									<li><a href="/ua/important/vupysk">Асоціація випускників</a></li>
+									<li><a href="//fund.oa.edu.ua/">Благодійність</a></li>
+									<li><a href="/ua/contacts/cont_all">Хочу знати</a></li>										
+								</ul>
+							  </div>
+							</div>
+						  </div>						  
+					</div>
+					</div><!--accordion end-->
+				</div>
+				
+				 <div class="col-md-pull-3 col-md-9">
+					<div class="category row clearfix">
+						<div class="col-xs-6 col-sm-4 col-lg-4">
+							<div class="category-block library">Наукова бібліотека</div>
+							<ul>
+							<li><a href="//lib.oa.edu.ua/library/news/">Новини</a></li>
+							<li><a href="//lib.oa.edu.ua/funds/">Фонди та колекції</a></li>
+							<li><a href="//lib.oa.edu.ua/resources/">Е-ресурси</a></li>
+							<li><a href="http://db.lib.oa.edu.ua/">Е-каталог</a></li>
+							<li><a href="//lib.oa.edu.ua/library/contacts">Контакти</a></li>
+							</ul>
+						</div><!--/span-->
+						<div class="col-xs-6 col-sm-4 col-lg-4">
+							<div class="category-block museum">Музей</div>
+							<ul><li><a href="http://museum.oa.edu.ua/museum/news/">Новини</a></li>
+							<li><a href="http://museum.oa.edu.ua/museum/expositions/">Експозиції</a></li>
+							<li><a href="http://museum.oa.edu.ua/underground-gallery/about-gallery.html">Мистецька галерея</a></li>
+							<li><a href="http://museum.oa.edu.ua/contacts.html">Контакти</a></li></ul>
+						</div><!--/span-->
+						<div class="clearfix visible-xs"></div>						
+						<div class="col-xs-6 col-sm-4 col-lg-4">
+							<div class="category-block journals">Наукові збірники</div>
+							<ul><li><a href="/ua/science/sjournal/">Збірники</a></li>
+							<li><a href="/ua/science/sjournal/#requirements">Умови публікації</a></li>
+							<li><a href="/ua/science/sjournal/#send">Подати статтю</a></li>
+							<li><a href="/ua/science/sjournal/">Контакти</a></li></ul>
+						</div><!--/span-->
+						<div class="clearfix hidden-xs"></div>
+						<div class="col-xs-6 col-sm-4 col-lg-4">
+							<div class="category-block world">Міжнародна співпраця</div>				
+							<ul><li><a href="/ua/foreign/prog/">Міжнародні програми</a></li>
+							<li><a href="/ua/foreign/erasmus">Erasmus+</a></li>
+							<li><a href="/ua/foreign/cont_foreign">Контакти</a></li></ul>
+						</div><!--/span-->
+						<div class="clearfix visible-xs"></div>								
+						<div class="col-xs-6 col-sm-4 col-lg-4">
+							<div class="category-block ostrog">Острогіана</div>
+							<ul><li><a href="//heritage.oa.edu.ua/about">Про центр</a></li>
+							<li><a href="//heritage.oa.edu.ua/ostrozke-knyazivstvo/kontury-ostrozkoho-knyazivstva">Острозьке князівство</a></li>
+							<li><a href="//heritage.oa.edu.ua/resursy/lib">Ресурси</a></li>
+							<li><a href="//heritage.oa.edu.ua/resursy/od">Острозька давнина</a></li>
+							<li><a href="//heritage.oa.edu.ua/kontakty">Контакти</a></li></ul>
+						</div><!--/span-->
+						<div class="col-xs-6 col-sm-4 col-lg-4">
+							<div class="category-block leisure">Дозвілля</div>
+							<ul><li><a href="/ua/studentbody/stud_organizations/organizations_kmc/">Культурно-мистецький центр</a></li>
+								<li><a href="/ua/resources/fizkultura">Спорт</a></li>
+							<li><a href="//photo.oa.edu.ua/">Фотогалерея</a></li>								
+							<li><a href="//museum.oa.edu.ua/%D0%BC%D1%96%D1%82%D0%BE-%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B3-%D1%82%D0%B0-%D0%BC%D1%83%D0%B7%D0%B5%D1%97-%D0%BC%D1%96%D1%81%D1%82%D0%B0/">Місто</a></li>
+							<li><a href="/ua/contacts/cont_all">Контакти</a></li></ul>
+                        </div><!--/span-->
+                        <div class="col-xs-6 col-sm-4 col-lg-4">
+							<div class="category-block library">Ресурси</div>
+							<ul>
+							<li><a href="https://bs.oa.edu.ua">Братство спудеїв</a></li>
+							<li><a href="/ua/resources/rescenter/resources_economika">Ресурсні центри</a></li>
+							<li><a href="/ua/resources/vdzg">Інформаційно-рекламний відділ</a></li>
+							</ul>
+						</div><!--/span-->
+						<div class="col-xs-6 col-sm-4 col-lg-4">
+							<div class="category-block museum">Освіта</div>
+							<ul><li><a href="/ua/abiturijentovi/bachelor/specialities">Спеціальності</a></li>
+							<li><a href="/ua/info/ects/">Інформаційний пакет ЄКТС</a></li>
+							<li><a href="#"> рея</a></li>
+							<li><a href="#"> .......</a></li></ul>
+						</div><!--/span-->
+						<div class="clearfix visible-xs"></div>						
+						<div class="col-xs-6 col-sm-4 col-lg-4">
+							<div class="category-block journals">Корисне</div>
+							<ul><li><a href="/ua/resources/viddil_pratsevlashtyvanya_studentiv/">Відділ працевлаштування</a></li>
+							<li><a href="/ua/science/sjournal/#send">Веб-сайти Острозької академії </a></li>
+							<li><a href="/ua/science/sjournal/">Антикорупційна діяльність</a></li></ul>
+						</div><!--/span-->						
+					</div>
+				</div>				
+			</div>
+			<div class="row">
+				<div class="col-md-9">	
+					
+					<div id="myCarousel" class="carousel slide">
+						<h3>Youtube</h3>
+						<a class="glyphicon glyphicon-chevron-left" href="#myCarousel" data-slide="prev"></a>
+						<a class="glyphicon glyphicon-chevron-right" href="#myCarousel" data-slide="next"></a>						
+						<!-- Carousel items -->
+						<div class="carousel-inner">
+							<div class="item active" data-carusel-category="Youtube">
+								<div class="row"><div class="col-xs-6 col-sm-4"><a target="_blank" href="//www.youtube.com/watch?v=6k7-OFaIWA4" data-fancybox="yt"><span class="glyphicon glyphicon-play-circle" ><img data-original="https://i.ytimg.com/vi/6k7-OFaIWA4/mqdefault.jpg" alt="Image_a2" class="img-responsive lazy" src="https://i.ytimg.com/vi/"></span><p>Вітання абітурієнтів з Новим роком 2020</p></a></div><div class="col-xs-6 col-sm-4"><a target="_blank" href="//www.youtube.com/watch?v=yR0y4Dw_OCY" data-fancybox="yt"><span class="glyphicon glyphicon-play-circle" ><img data-original="https://i.ytimg.com/vi/yR0y4Dw_OCY/mqdefault.jpg" alt="Image_a2" class="img-responsive lazy" src="https://i.ytimg.com/vi/"></span><p>Острозька академія вітає з різдвяно-новорічними святами!</p></a></div><div class="col-sm-4 hidden-xs"><a target="_blank" href="//www.youtube.com/watch?v=C1Z0opDh340" data-fancybox="yt"><span class="glyphicon glyphicon-play-circle" ><img data-original="https://i.ytimg.com/vi/C1Z0opDh340/mqdefault.jpg" alt="Image_a2" class="img-responsive lazy" src="https://i.ytimg.com/vi/"></span><p>Острозький наспів</p></a></div></div>
+							</div>
+							<!--/item-->
+							<div class="item"  data-carusel-category="Цікаве">
+								<div class="row">
+									<div class="col-xs-6 col-sm-4"><a href="https://heritage.oa.edu.ua/resursy/%D0%B5%D0%BD%D1%86%D0%B8%D0%BA%D0%BB%D0%BE%D0%BF%D0%B5%D0%B4%D1%96%D1%8F/%D0%B5%D0%BD%D1%86%D0%B8%D0%BA%D0%BB%D0%BE%D0%BF%D0%B5%D0%B4%D1%96%D1%8F3"><span><img src="im/carousel_eoa1.jpg" data-original="im/carousel_eoa1.jpg" alt="Енциклопедичне видання «Острозька академія»" class="img-responsive lazy"></span><p>Енциклопедичне видання «Острозька академія»</p></a>
+									</div>
+									<div class="col-xs-6 col-sm-4"><a href="/ua/etc/istoriya-filosofiyi-ukrayiny"><span><img src="im/carousel_fil.jpg" data-original="im/carousel_fil.jpg" alt="Історія філософії України" class="img-responsive lazy"></span><p>Історія філософії України</p></a>
+									</div>
+									<div class="col-sm-4 hidden-xs"><a href="/ua/etc/kontaktukrainiantv"><span><img src="im/carousel_kontakt.jpg" data-original="im/carousel_kontakt.jpg" alt="Очима культури" class="img-responsive lazy"></span><p>Очима культури</p></a>
+									</div>
+								</div>
+								<!--/row-->
+							</div>
+							<!--/item-->
+							<div class="item" data-carusel-category="Медіа">
+								<div class="row">
+									<div class="col-xs-6 col-sm-4"><a href="/ua/etc/gallery/"><span><img src="im/carousel_gallery.jpg" data-original="im/carousel_gallery.jpg" alt="Фотогалерея Острозької академії" class="img-responsive lazy"></span><p>Фотогалерея Острозької академії</p></a>
+									</div>
+									<div class="col-xs-6 col-sm-4"><a href="/ua/media/"><span><img src="im/carousel_media.jpg" data-original="im/carousel_media.jpg" alt="Острозька академія в медіа" class="img-responsive lazy"></span><p>Острозька академія в медіа</p></a>
+									</div>
+									<div class="col-sm-4 hidden-xs"><a href="/ua/etc/web/"><span><img src="im/carousel_web.jpg" data-original="im/carousel_web.jpg" alt="Веб-сайти Острозької академії" class="img-responsive lazy"></span><p>Веб-сайти Острозької академії</p></a>
+									</div>								
+
+								</div>
+								<!--/row-->
+							</div>
+							<!--/item-->
+						</div>
+						<!--/carousel-inner-->
+
+					</div>
+					<!--/myCarousel-->
+
+					
+				</div>
+				<div class="col-md-3 sites-oa">
+					<div><a class="moodle" href="//moodle.oa.edu.ua" title="Moodle — Національний університет «Острозька академія»" target="_blank"><img src="/im/moodle.png" alt="Moodle"/></a>
+					<a class="eprints" href="http://eprints.oa.edu.ua" title="Цифровий архів Національного університету «Острозька академія»" target="_blank"><img src="/im/eprints.png" alt="Eprints"/></a>				
+					<a class="glyphicon glyphicon-time" href="http://rozklad.oa.edu.ua/" title="Розклад занять" target="_blank"></a>
+					<a class="glyphicon glyphicon-list-alt" href="http://events.oa.edu.ua/" title="Події в ОА" target="_blank"></a>
+					<a class="glyphicon glyphicon glyphicon-envelope" href="http://gmail.oa.edu.ua/" title="Вхід в пошту" target="_blank"></a>		
+					<a class="glyphicon glyphicon glyphicon-folder-open" href="/ua/info/access" title="Доступ до публічної інформації"></a>
+					<!--form id="ssearch" class="visible-xs" action="/ua/search" role="search">	
+				<input name="gs" id="searchtext" class="placeholder animate-in" placeholder="Пошук…" type="text">
+				<button class="svg" type="submit"><i class="glyphicon glyphicon-search"></i></button></form--></div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="pre-footer"></div>	 
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-9">
+					<div class="row">
+						<div class="col-xs-6 col-sm-3 col-sm-push-4 student">
+							<p><a href="/ua/info/">Університет</a></p>
+							<p><a href="/ua/abiturijentovi/">Вступ</a></p>
+							<p><a href="/ua/science/">Наука</a></p>
+							<p><a href="/ua/resources/">Ресурси</a></p>
+							<p><a href="/ua/departments/">Факультети</a></p>
+							<p><a href="/ua/studentbody/">Корисне</a></p>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-sm-pull-3 adress">
+							<p>35800, м. Острог</p>
+							<p> вул. Семінарська, 2</p>
+							<p><a href="#">www.oa.edu.ua</a></p>
+							<p><a href="mailto:press@oa.edu.ua">press@oa.edu.ua</a></p>
+							<p>+38 03654 22949</p>
+							<p class="license hidden-xs hidden-sm">Ліцензія Міністерства освіти і науки України: АЕ №527284 від 05.08.2014 р.</p>
+						</div>						
+						<div class="col-xs-6 col-sm-3 hidden-xs to-top">
+							<p><a href="http://lib.oa.edu.ua/">Наукова бібліотека</a></p>
+							<p><a href="http://museum.oa.edu.ua/">Музей</a></p>
+							<p><a href="/ua/science/sjournal/">Наукові збірники</a></p>
+							<p><a href="/ua/foreign/">Міжнародна співпраця</a></p>
+							<p><a href="http://heritage.oa.edu.ua/">Острогіана</a></p>
+							<p><a href="/ua/studentbody/stud_organizations/organizations_kmc/">Дозвілля</a></p>
+						</div>
+						<div class="col-xs-6 col-sm-2 hidden-xs">
+							<p><a href="/ua/search">Мапа сайту</a></p>
+							<p><a href="/ua/info/news">Новини</a></p>
+							<p><a href="/ua/info/news/events">Події</a></p>
+							<!--p><a href="#">Вакансії</a></p-->
+							<p><a href="/ua/contacts/">Контакти</a></p>
+							<p><a href="http://help.oa.edu.ua/">Допомога</a></p>
+							<!--p><a href="/ua/etc/fin-doc/">Фінансові документи</a></p-->
+							
+						</div>					
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 social">
+					<div class="row">
+						<a href="//www.facebook.com/oa.edu.ua" class="ss-icon" title="Facebook">Facebook</a>
+<a href="//twitter.com/oaedu" class="ss-icon" title="Twitter">Twitter</a>
+<a href="//www.youtube.com/user/oaedu" class="ss-icon" title="Youtube">YouTube</a>
+<a href="/ua/rss.xml" class="ss-icon" title="Rss">Rss</a>
+<!--a class="android" href="//play.google.com/store/apps/details?id=ua.edu.oa.app" title="Додаток на Android"></a-->
+<a href="#" class="glyphicon glyphicon-chevron-up scroll-top" title="Вгору"></a>
+<p>Якщо Ви помітили помилку на сайті, будь ласка, напишіть нам: <a href="mailto:web@oa.edu.ua">web@oa.edu.ua</a></p>
+<p><a href="http://www.mon.gov.ua/" target="_blank">Міністерство освіти і науки України</a></p>
+<p><a href="http://www.lvtest.org.ua/" target="_blank">ЛРЦОЯО</a> <a href="http://pedpresa.com.ua/" target="_blank">ПедПреса</a></p>
+
+					</div>	
+				</div>
+
+			</div>
+			<hr>
+			<p class="copy">© 2020 Національний університет «Острозька академія»</p>
+		</div>
+		
+	</footer>
+	 
+	<script type="text/javascript" src="j/jquery.min.js"></script>
+<script type="text/javascript" src="j/bootstrap.min.js"></script>	
+<script type="text/javascript" src="j/owl.carousel.min.js"></script>
+<script type="text/javascript" src="j/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="j/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/j/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="j/config.js"></script>
+<script type="text/javascript" src="j/snow.js"></script>
+<!-- Google analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-22102549-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-22102549-1');
+</script>
+	
+<script type="application/ld+json">
+	{
+	   "@context": "https://schema.org",
+	   "@type": "WebSite",
+	   "url": "https://www.oa.edu.ua/",
+	   "potentialAction": {
+		 "@type": "SearchAction",
+		 "target": "https://www.oa.edu.ua/ua/search?gs={search_term_string}",
+		 "query-input": "required name=search_term_string"
+	   }
+	}
+</script>
+	
+  </body>
+</html>
